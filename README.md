@@ -4,6 +4,7 @@ Updated 4/19/2021
 
 Maintenance of this repository will be continuous as our manuscripts are in revision. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g[dot]harvard[dot]edu. Since this is on bioRxiv, I will not know if you a reviewer.
 
+-----
 
 The STAMPR_Scripts folder contains all scripts needed to run the analysis. 
 
@@ -17,6 +18,6 @@ MajorityDistance.R computes GD and RD from ReadsTable files
 
 FinalResiliencyWithCFU.R is the Resiliency Algorithm. Set plots = FALSE if you want to just get Nr/Nb for a bunch of samples, or to TRUE if you want to see the underlying Resiliency plots for a single sample. 
 
-----
+-----
 
 The ExPEC folder contains the ReadsTable and CFUtable files to reproduce much of our analysis. We set InocCFU = 2E7, minweight = .03, CorrectForNoise = .005. Feel free to vary these parameters to see how it changes the results. References are columns 1-5
