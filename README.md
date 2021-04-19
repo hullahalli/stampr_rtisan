@@ -2,7 +2,7 @@
 
 Updated 4/19/2021
 
-Maintenance of this repository will be continuous as our manuscripts are in revision. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g[dot]harvard[dot]edu. Since this is on bioRxiv, I will not know if you a reviewer.
+Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g[dot]harvard[dot]edu. Since this is on bioRxiv, I will not know if you a reviewer.
 
 -----
 
