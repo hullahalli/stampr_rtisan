@@ -16,7 +16,7 @@ IdentifyTopBarcodes.R is used to compare the top barcodes between two samples. H
 
 MajorityDistance.R computes GD and RD from ReadsTable files
 
-FinalResiliencyWithCFU.R is the Resiliency Algorithm. Set plots = FALSE if you want to just get Nr/Nb for a bunch of samples, or to TRUE if you want to see the underlying Resiliency plots for a single sample. 
+FinalResiliencyWithCFU.R is the Resiliency Algorithm. Set plots = FALSE if you want to just get Nr/Nb for a bunch of samples, or to TRUE if you want to see the underlying Resiliency plots for a single sample. If you want the latter, set plots to TRUE and load the function called "ResiliencyIndices". All you then need to do is execute the code above the start of the function, and you can run the ResiliencyIndices on any sample in ReadsTable by specifying the column name in quotes. 
 
 -----
 
