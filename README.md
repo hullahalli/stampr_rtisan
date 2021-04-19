@@ -17,8 +17,6 @@ MajorityDistance.R computes GD and RD from ReadsTable files
 
 FinalResiliencyWithCFU.R is the Resiliency Algorithm. Set plots = FALSE if you want to just get Nr/Nb for a bunch of samples, or to TRUE if you want to see the underlying Resiliency plots for a single sample. 
 
-
-
-
+----
 
 The ExPEC folder contains the ReadsTable and CFUtable files to reproduce much of our analysis. We set InocCFU = 2E7, minweight = .03, CorrectForNoise = .005. Feel free to vary these parameters to see how it changes the results. References are columns 1-5
