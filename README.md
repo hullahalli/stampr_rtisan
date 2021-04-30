@@ -1,12 +1,12 @@
 # stampr_rtisan
 
-Updated 4/19/2021
+Updated 4/30/2021
 
 Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g.harvard.edu. 
 
-Update 4/30/2021 
+The scripts in this repository are from two manuscripts. The first is a computational one describing STAMPR, a methodlogy to improve quantification of bottlenecks and dissemination patterns during infection (https://www.biorxiv.org/content/10.1101/2021.04.28.441820v1). The other is a biological one describing E. coli systemic infection population dynamics, which will be uploaded in a few weeks. If you are reading this now, we are sort of in a strange middle ground where one of the manuscripts is available online but the other isn't. 
 
-The manuscript describing STAMPR is available on bioRxiv (https://www.biorxiv.org/content/10.1101/2021.04.28.441820v1) and has been submitted. Since the pipeline was built on data that isn't described in this paper (i.e., the animal experiments that will be in the upcoming one), I've uploaded the barcode frequency counts in the **ExPEC** folder to help facilitate review.  To avoid any potential data duplication problems later, the samples are deidentified for the time being, since this isn't necessary to understand the STAMPR pipeline. 
+The animal experiments from the biology manuscript gave us a good set of data to develop STAMPR. To avoid future data duplication problems, the computatonal manuscript doesn't talk about any systemic ExPEC biology, but simply uses examples from this data to better demonstrate how the algorithm works. *1_to_54_OrderedFrequencies.csv* in the **ExPEC** folder contains this data to facilitate review. Each column of this file represents a different biological sample, but for now, these just serve as a bunch of test samples with which the algorithm can be run. Our goal is to split up these manuscripts in a way where you can read one if you want to learn about STAMPR and the other if you want to learn about ExPEC systemic infection.
 
 -----
 
