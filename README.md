@@ -2,7 +2,11 @@
 
 Updated 4/19/2021
 
-Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g[dot]harvard[dot]edu. 
+Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g.harvard.edu. 
+
+Update 4/30/2021 
+
+The manuscript describing STAMPR is available on bioRxiv (https://www.biorxiv.org/content/10.1101/2021.04.28.441820v1) and has been submitted. Since the pipeline was built on data that isn't described in this paper (i.e., the animal experiments that will be in the upcoming one), I've uploaded the barcode frequency counts in the **ExPEC** folder to help facilitate review.  To avoid any potential data duplication problems later, the samples are deidentified for the time being, since this isn't necessary to understand the STAMPR pipeline. 
 
 -----
 
