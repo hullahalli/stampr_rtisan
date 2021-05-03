@@ -1,5 +1,3 @@
-# stampr_rtisan
-
 Updated 4/30/2021
 
 Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g.harvard.edu. 
