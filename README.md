@@ -2,7 +2,7 @@ Updated 5/17/2021
 
 Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g.harvard.edu. 
 
-The scripts in this repository are from two manuscripts. The [first](https://www.biorxiv.org/content/10.1101/2021.04.28.441820v1) is a computational one describing STAMPR, a methodology to improve quantification of bottlenecks and dissemination patterns during infection. The second is a biological one describing E. coli systemic infection population dynamics. 
+The scripts in this repository are from two manuscripts. The [first](https://www.biorxiv.org/content/10.1101/2021.04.28.441820v1) is a computational one describing STAMPR, a methodology to improve quantification of bottlenecks and dissemination patterns during infection. The [second](https://www.biorxiv.org/content/10.1101/2021.05.17.444473v1) is a biological one describing E. coli systemic infection population dynamics. 
 
 -----
 
