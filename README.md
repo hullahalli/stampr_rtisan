@@ -24,7 +24,7 @@ The basic table you need (or will be generated) should be called *ReadsTable*. T
 
 -----
 
-The **ExPEC** folder contains the ReadsTable and CFUtable files to reproduce much of our analysis. 
+The **ExPEC** folder contains the ReadsTable and CFUtable files to reproduce much of our analysis. Some new organ codes are l (entire liver), s (entire spleen) and u (lungs)
 
 *1_to_54_OrderedFrequencies* is the barcode counts for the 32 mice across 12 organs, described in Figure S2-S4 and S6-S11. *CompleteTimecourse_CFU* is the CFU values for these animals. The animal codes are described in the text
 
@@ -34,3 +34,6 @@ The **ExPEC** folder contains the ReadsTable and CFUtable files to reproduce muc
 
 *Mut1and2_Frequencies* is barcode counts from Figure 7. 1-8 were from 1 dpi and 9-16 were from 5 dpi.
 
+-----
+
+The **TIS_TAtally** folder contains the read counts across TA sites for all animals in Figure S12 and the replated input. These can be directly input into *CompareTA_NewSim.R* in the **RTISAN_Scripts** folder for comparative analyses. 
