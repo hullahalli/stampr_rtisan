@@ -1,4 +1,4 @@
-Updated 4/30/2021
+Updated 5/17/2021
 
 Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g.harvard.edu. 
 
@@ -24,4 +24,13 @@ The basic table you need (or will be generated) should be called *ReadsTable*. T
 
 -----
 
-The **ExPEC** folder contains the ReadsTable and CFUtable files to reproduce much of our analysis. We set InocCFU = 2E7, minweight = .03, CorrectForNoise = .005. Feel free to vary these parameters to see how it changes the results. References are columns 1-5
+The **ExPEC** folder contains the ReadsTable and CFUtable files to reproduce much of our analysis. 
+
+*1_to_54_OrderedFrequencies* is the barcode counts for the 32 mice across 12 organs, described in Figure S2-S4 and S6-S11. *CompleteTimecourse_CFU* is the CFU values for these animals. The animal codes are described in the text
+
+*Clod1and2_Frequencies* is barcode counts from the clodonate experiments, and the CFU values are provided as well. 1-4 and 13-16 were given control liposomes, and 6-8 and 17-20 were given clodronate liposomes. 
+
+*Dose3_Frequencies* is barcodes counts from the dosing experiment. 1-10 were given the low dose, and 11-19 were given the high dose. 
+
+*Mut1and2_Frequencies* is barcode counts from Figure 7. 1-8 were from 1 dpi and 9-16 were from 5 dpi.
+
