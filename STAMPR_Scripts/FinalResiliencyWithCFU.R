@@ -88,11 +88,11 @@ getNrNb <- function(ReadsTable, CFUtable, InocCFU, WhereAreReferences, minweight
     bindsorted <<- bindsorted
     
     
-    #Outer layer of the function that scans for minima. The input to this, p, is later defined. p is a specific set of numbers that specifiy all the poisitions for which the MCMC will start. scanformin is applied over each of these positions
+    #Outer layer of the function that scans for minima. The input to this, p, is later defined. p is a specific set of numbers that specifiy all the poisitions for which the minimum finder will start. scanformin is applied over each of these positions
     scanformin <- function(p) {
       start <- p
       
-      #This is the MCMC. It takes p, the initial guess, and looks around with a specified sd (the newlocation variable). It asks if this new value (newstart)  is less than start. If so, start is set to newstart. Repeating this function iteratively changes the value of start if the newstart guess is smaller
+      #This is finds minima. It takes p, the initial guess, and looks around with a specified sd (the newlocation variable). It asks if this new value (newstart)  is less than start. If so, start is set to newstart. Repeating this function iteratively changes the value of start if the newstart guess is smaller
       findmin <- function() {
         where <- which(x == start)
         newlocation <- abs(rnorm(1, mean = where, sd = length(na.omit(x))/10))
@@ -103,7 +103,7 @@ getNrNb <- function(ReadsTable, CFUtable, InocCFU, WhereAreReferences, minweight
         start<<-start
       }
       
-      #startvector is the resulting output of the findmin function run 1000 times. The start variable also changes to be the last guess by the MCMC. The position of this guess in the x variable is defined as decision. Put another way, decision is the x coordinate of the resiliency graph, and start is the y coordinate.
+      #startvector is the resulting output of the findmin function run 1000 times. The start variable also changes to be the last guess. The position of this guess in the x variable is defined as decision. Put another way, decision is the x coordinate of the resiliency graph, and start is the y coordinate.
       startvector <- replicate(1000, findmin())
       decision <- which(x==start)
     }
@@ -113,13 +113,13 @@ getNrNb <- function(ReadsTable, CFUtable, InocCFU, WhereAreReferences, minweight
     q <- round(seq(1, length(na.omit(x)), length.out = length(na.omit(x))/15))
     p<-x[q]
     
-    #The guesses variable is defined as all the final decisions the MCMC reached from starting across all the values of p.  The unique guesses are taken and sorted.
+    #The guesses variable is defined as all the final decisionsreached from starting across all the values of p.  The unique guesses are taken and sorted.
     guesses <<- unlist(lapply(p, scanformin))
     guessesuniquesorted <- sort(unique(c(guesses)))
     guessesuniquesorted <- c(guessesuniquesorted, length(na.omit(x)))
     
     
-    #There is sometimes some weirdness at the end of the MCMC run, and it makes decisions really close together. This part takes anything within 5 values of the end of the run and sets it to the end. This new sorted list is uniqued again.
+    #There is sometimes some weirdness at the end of the run, and it makes decisions really close together. This part takes anything within 5 values of the end of the run and sets it to the end. This new sorted list is uniqued again.
     guessesuniquesorted[guessesuniquesorted > max(guessesuniquesorted)-5] <- max(guessesuniquesorted)
     guessesuniquesorted <- unique(guessesuniquesorted)
     
@@ -202,12 +202,12 @@ getNrNb <- function(ReadsTable, CFUtable, InocCFU, WhereAreReferences, minweight
     cutoffpositions <- unlist(lapply(guessesuniquesorted, converttocutoffs))
     cutoffpositions <<- cutoffpositions
     
-    #Now that we have taken the MCMC to have a better idea of where noise is, we redefine our output vector such that everything after the start of noise is set to 0. Note that this is done on bindsortedcopy2, and not bindsorted or bindsortedcopy
+    #Now we redefine our output vector such that everything after the start of noise is set to 0. Note that this is done on bindsortedcopy2, and not bindsorted or bindsortedcopy
     lengthofnoise <- dim(bindsortedcopy2)[1]-noisestart
     bindsortedcopy2[1:lengthofnoise,][2] <- 0
     outvecwithoutnoise <<- as.numeric(bindsortedcopy2[,2])
     
-    #The resiliency function is run again, this time with the new noise-less output vector and where the resulting output is defined as z. z is functionally the same as x, except z is done after the MCMC correction. 
+    #The resiliency function is run again, this time with the new noise-less output vector and where the resulting output is defined as z. z is functionally the same as x, except z is done after the noise correction. 
     z <- 0
     minusonefinal <- function() {
       input <- bindsortedcopy2[,1]
