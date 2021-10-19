@@ -1,8 +1,11 @@
-Updated 5/17/2021
+Updated 10/19/21
 
-Maintenance of this repository will be continuous as our manuscripts are in revision and beyond. Files will be updated and more will be added as needed. If you have a question or are having trouble running the code, feel free to email me at hullahalli[at]g.harvard.edu. 
+This repository contains the code to calculate STAMPR measurements from barcode frequency counts. If you have a question or are having trouble running the code, don't hesitate to email me at hullahalli[at]g.harvard.edu. 
 
-The scripts in this repository are from two manuscripts. The [first](https://www.biorxiv.org/content/10.1101/2021.04.28.441820v1) is a computational one describing STAMPR, a methodology to improve quantification of bottlenecks and dissemination patterns during infection. The [second](https://www.biorxiv.org/content/10.1101/2021.05.17.444473v1) is a biological one describing E. coli systemic infection population dynamics using the tools developed in the first.
+Papers with code deposited in this repository include:
+
+1) [The description of STAMPR](https://journals.asm.org/doi/10.1128/mSystems.00887-21)
+2) [Population dynamics of E. coli systemic infection](https://elifesciences.org/articles/70910)
 
 -----
 
