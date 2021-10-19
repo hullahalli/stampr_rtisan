@@ -2,7 +2,7 @@ Updated 10/19/21
 
 This repository contains the code to calculate STAMPR measurements from barcode frequency counts. If you have a question or are having trouble running the code, don't hesitate to email me at hullahalli[at]g.harvard.edu. 
 
-Papers with code deposited in this repository include:
+Papers that have deposited code into this repository include:
 
 1) [The description of STAMPR](https://journals.asm.org/doi/10.1128/mSystems.00887-21)
 2) [Population dynamics of E. coli systemic infection](https://elifesciences.org/articles/70910)
