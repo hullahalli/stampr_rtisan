@@ -1,4 +1,4 @@
-Updated 10/19/21
+Updated 12/29/21
 
 This repository contains the code to calculate STAMPR measurements from barcode frequency counts. If you have a question or are having trouble running the code, don't hesitate to email me at hullahalli[at]g.harvard.edu. 
 
@@ -38,3 +38,7 @@ The **ExPEC** folder contains the ReadsTable and CFUtable files to reproduce muc
 -----
 
 The **TIS_TAtally** folder contains the read counts across TA sites for all animals in Figure S12 and the replated input. These can be directly input into *CompareTA_NewSim.R* in the **RTISAN_Scripts** folder for comparative analyses. 
+
+
+-----
+The **ZChol** folder contains a script that is an updated version of the original *getNrNb* function. This was used [here](https://www.biorxiv.org/content/10.1101/2021.12.17.473008v1) to calculate FP values. The original *getNrNb* function runs out of memory when using a large number of barcodes (~60,000 in this study), so this script was created to be able to run on libraries of this size and also improves on noise correction. We anticipate combining the features of both scripts in the future. 
