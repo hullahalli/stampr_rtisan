@@ -6,11 +6,19 @@ Papers that have deposited code into this repository include:
 
 1) [The description of STAMPR](https://journals.asm.org/doi/10.1128/mSystems.00887-21)
 2) [Population dynamics of E. coli systemic infection](https://elifesciences.org/articles/70910)
-3) [Baroded V. cholerae challenge strains](https://journals.asm.org/doi/10.1128/mbio.00539-22)
+3) [Barcoded V. cholerae challenge strains](https://journals.asm.org/doi/10.1128/mbio.00539-22)
+
+
+----
+The **Campbell2022** folder contains the scripts used [here] to calculate FP. Notable changes include an option to omit the iterating process entirely when very large (tens of thousands) of barcodes are present in a sample. 
+
+-----
+The **ZChol** folder contains a script that is an updated version of the original *getNrNb* function. This was used [here](https://www.biorxiv.org/content/10.1101/2021.12.17.473008v1) to calculate FP values. The original *getNrNb* function runs out of memory when using a large number of barcodes (~60,000 in this study), so this script was created to be able to run on libraries of this size and also improves on noise correction. We anticipate combining the features of both scripts in the future. 
 
 -----
 
-The **STAMPR_Scripts** folder contains all scripts needed to run the analysis. 
+The **STAMPR_Scripts** folder contains all scripts needed to run the analysis from the mSystems STAMPR paper. Note that newer versions have since been deposited in their respective folders
+
 The basic table you need (or will be generated) should be called *ReadsTable*. This is a data frame with the first column specifying the barcode identifier and other columns representing counts for each sample. See *1_to_54_OrderedFrequencies.csv* for a formatting example.
 
 
@@ -40,10 +48,3 @@ The **ExPEC** folder contains the ReadsTable and CFUtable files to reproduce muc
 
 The **TIS_TAtally** folder contains the read counts across TA sites for all animals in Figure S12 and the replated input. These can be directly input into *CompareTA_NewSim.R* in the **RTISAN_Scripts** folder for comparative analyses. 
 
-
------
-The **ZChol** folder contains a script that is an updated version of the original *getNrNb* function. This was used [here](https://www.biorxiv.org/content/10.1101/2021.12.17.473008v1) to calculate FP values. The original *getNrNb* function runs out of memory when using a large number of barcodes (~60,000 in this study), so this script was created to be able to run on libraries of this size and also improves on noise correction. We anticipate combining the features of both scripts in the future. 
-
-
-----
-The **Campbell2022** folder contains the scripts used [here] to calculate FP. 
