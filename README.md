@@ -1,4 +1,4 @@
-Updated 12/29/21
+Updated 10/6/22
 
 This repository contains the code to calculate STAMPR measurements from barcode frequency counts. If you have a question or are having trouble running the code, don't hesitate to email me at hullahalli[at]g.harvard.edu. 
 
@@ -6,6 +6,7 @@ Papers that have deposited code into this repository include:
 
 1) [The description of STAMPR](https://journals.asm.org/doi/10.1128/mSystems.00887-21)
 2) [Population dynamics of E. coli systemic infection](https://elifesciences.org/articles/70910)
+3) [Baroded V. cholerae challenge strains](https://journals.asm.org/doi/10.1128/mbio.00539-22)
 
 -----
 
@@ -42,3 +43,7 @@ The **TIS_TAtally** folder contains the read counts across TA sites for all anim
 
 -----
 The **ZChol** folder contains a script that is an updated version of the original *getNrNb* function. This was used [here](https://www.biorxiv.org/content/10.1101/2021.12.17.473008v1) to calculate FP values. The original *getNrNb* function runs out of memory when using a large number of barcodes (~60,000 in this study), so this script was created to be able to run on libraries of this size and also improves on noise correction. We anticipate combining the features of both scripts in the future. 
+
+
+----
+The **Campbell2022** folder contains the scripts used [here] to calculate FP. 
