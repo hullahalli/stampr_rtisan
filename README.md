@@ -10,7 +10,7 @@ Papers that have deposited code into this repository include:
 -----
 
 
-The **Campbell2022** folder contains the scripts used [here] to calculate FP. 
+The **Campbell2022** folder contains the scripts used [here].
 
 -----
 The **ZChol** folder contains a script that is an updated version of the original *getNrNb* function. This was used [here](https://www.biorxiv.org/content/10.1101/2021.12.17.473008v1) to calculate FP values. The original *getNrNb* function runs out of memory when using a large number of barcodes (~60,000 in this study), so this script was created to be able to run on libraries of this size and also improves on noise correction. We anticipate combining the features of both scripts in the future. 
