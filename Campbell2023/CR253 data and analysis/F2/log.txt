@@ -1,0 +1,24 @@
+2 experiments analysed separately (dosing 1 and dosing 2)
+
+20201116_CR240STAMP_dosing
+64 samples
+15 inputs
+4 cages (A/B/C/D) with 4 animals, feces 0/1/2/5 days post inoculation, 1 morbid from inoculation
+
+FinalResiliencyWithCFU_Ian_2022.R
+> getNrNb("master_frequencies.csv", "master_cfu.csv", 1e9, 1:3, .03, .01, "master_FP.csv", NULL)
+
+CalibrateNr_Ian_2022.R
+> CalibrateNr("master_cal253.csv", "master_FP.csv", "master_calibratedFP.csv")
+
+
+20210630_CR240STAMP_dosing2
+76 samples across 3 sequencing runs
+4 undiluted inputs and 6 other controls
+3 cages (A/B/C), 4 animals each (1-4), feces 1/2/5/11/21 days post inoculation
+
+FinalResiliencyWithCFU_Ian_2022.R
+> getNrNb("master_frequencies2.csv", "master_cfu2.csv", 1e9, 1:4, .03, .01, "master_FP2.csv", NULL)
+
+CalibrateNr_Ian_2022.R
+> CalibrateNr("master_cal253.csv", "master_FP2.csv", "master_calibratedFP2.csv")

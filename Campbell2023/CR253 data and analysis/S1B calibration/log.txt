@@ -1,0 +1,20 @@
+20200812_standardcurve_240CR
+24 samples
+3 calibration curves (A-C), 8 samples each 
+
+FinalResiliencyWithCFU_Ian_2022.R
+> getNrNb("master_frequencies.csv", NULL, 1e9, 1:3, .03, .01, "master_FP.csv", NULL)
+
+20210307_CR240STAMP_expansioncal
+12 samples
+Expansion calibration curves (E), 8 samples, 1 duplicated 
+Plus 3 extra references from same seq run
+
+FinalResiliencyWithCFU_Ian_2022.R
+Command a
+Command enter
+Define working directory
+
+> getNrNb("master_frequencies_expanded.csv", NULL, 1e9, 1:4, .03, .01, "master_FP_expanded.csv", NULL)
+
+Use results to create "Fmaster_cal253.csv" to calibrate future data

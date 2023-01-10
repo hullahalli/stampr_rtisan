@@ -1,0 +1,13 @@
+20210713_CR70K_GF_dose_F1.2.5
+20210807_CR70K.GF.F10.20
+108 samples
+Undiluted inputs x6
+I9x2 17CFU
+5 cages (A-E), 4 mice each (1-4), 5 times (F1/2/5/10/20)
+
+getFP_Ian_2022.R
+> getFP("master_frequencies.csv", "master_cfu.csv", 1:6, .03, "master_FP.csv")
+
+Calibrate_Ian_2022.R
+> CalibrateNs("master_cal70K.csv", "master_FP.csv", "master_calibratedFP.csv")
+

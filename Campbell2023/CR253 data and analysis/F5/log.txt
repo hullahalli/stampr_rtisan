@@ -1,0 +1,12 @@
+20220204_CR240_C3H_dose
+41 samples
+2 inputs and 1 controls
+3 cages (A/B/C) with 4 animals, feces 0/1/2/5
+
+FinalResiliencyWithCFU_Ian_2022.R
+> getNrNb("master_frequencies.csv", "master_cfu.csv", 1e9, 1:2, .03, .01, "master_FP.csv", NULL)
+
+CalibrateNr_Ian_2022.R
+> CalibrateNr("master_cal253.csv", "master_FP.csv", "master_calibratedFP.csv")
+
+

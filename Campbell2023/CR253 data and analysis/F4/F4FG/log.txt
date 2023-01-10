@@ -1,0 +1,25 @@
+2 separately analysed experiments: 6-24h and 24h-5d
+
+20201102_CR240STAMP_7d
+83 samples seq across 2 runs
+3 undiluted inputs
+6 diluted input controls
+2 cages (A/B) with 5 animals, feces, colon adherant (O), colon content (C), cecum adherant (M), cecum content (M) 
+
+FinalResiliencyWithCFU_Ian_2022.R
+> getNrNb("master_frequencies_7d.csv", "master_cfu_7d.csv", 1e9, 1:3, .03, .01, "master_FP_7d.csv", NULL)
+
+CalibrateNr_Ian_2022.R
+> CalibrateNr("master_cal253.csv", "master_FP_7d.csv", "master_calibratedFP_7d.csv")
+
+
+20210526_CR240STAMP_24h2
+51 samples
+3 undiluted inputs
+3 cages (A/B/C), 4 animals each (1-4), colon adherant (O), colon content (C), cecum adherant (M), cecum content (M) 
+
+FinalResiliencyWithCFU_Ian_2022.R
+> getNrNb("master_frequencies_24h.csv", "master_cfu_24h.csv", 1e9, 1:3, .03, .01, "master_FP_24h.csv", NULL)
+
+CalibrateNr_Ian_2022.R
+> CalibrateNr("master_cal253.csv", "master_FP_24h.csv", "master_calibratedFP_24h.csv")

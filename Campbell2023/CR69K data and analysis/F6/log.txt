@@ -1,0 +1,15 @@
+20210830_CR70K_Sm.F1.5.10
+20210916_CR70K_SmF20
+83 samples
+Undiluted inputs x4
+I8 105 CFU
+5 cages (A-E), 4 mice each (1-4), 4 times(F1/5/10/20)
+Some points missing (constipation/mortality)
+
+
+getFP_Ian_2022.R
+> getFP("master_frequencies.csv", "master_cfu.csv", 1:4, .03, "master_FP.csv")
+
+Calibrate_Ian_2022.R
+> CalibrateNs("master_cal70K.csv", "master_FP.csv", "master_calibratedFP.csv")
+

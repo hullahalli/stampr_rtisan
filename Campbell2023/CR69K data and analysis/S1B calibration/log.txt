@@ -1,0 +1,7 @@
+20210625_CR70kcal_dose2
+33 samples
+3 undiluted references
+3 calibration curves (A-C), 10 samples each (0-9)  
+
+getFP_Ian_2022.R
+> getFP("master_frequencies.csv", NULL, 1:3, .03, "master_FP.csv")

@@ -1,0 +1,12 @@
+20200915_CR240STAMP_5d
+5 animals (1-5), fecal (F), day 0 (5 hours), day 1, day 2, day 3, day 4, day 5
+sequencing of 1F2 failed
+Undiluted inputs x3
+C8 8 CFU control samples
+
+FinalResiliencyWithCFU_Ian_2022.R
+> getNrNb("master_frequencies.csv", "master_cfu.csv", 1e9, 1:3, .03, .01, "master_FP.csv", NULL)
+
+
+CalibrateNr_Ian_2022.R
+> CalibrateNr("master_cal253.csv", "master_FP.csv", "master_calibratedFP.csv")

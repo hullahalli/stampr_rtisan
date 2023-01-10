@@ -1,0 +1,19 @@
+20220202_CR70K_loxtidine
+17 samples
+I8 108 CFU
+4 cages (A-D), 4 mice each (1-4) all F5
+
+20220321_CR70K_loxtidine2
+Designated "2"
+18 samples
+4 undiluted inputs
+I8_2 90 CFU
+I8T_2 112 CFU
+4 cages (A-D), 4 mice each (1-4) all F5
+
+getFP_Ian_2022.R
+> getFP("master_frequencies.csv", "master_cfu.csv", 1:4, .03, "master_FP.csv")
+
+Calibrate_Ian_2022.R
+> CalibrateNs("master_cal70K.csv", "master_FP.csv", "master_calibratedFP.csv")
+

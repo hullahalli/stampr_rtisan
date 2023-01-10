@@ -1,0 +1,19 @@
+This folder contains the STAMP scripts and data used in Campbell et al 2023.
+CR253 and CR69K libraries were analyzed using separate pipelines and are included as separate folders.
+All software is included as R files.
+
+The inputs for all STAMP analyses are a "master_frequencies" table and "master_cfu" table. 
+Master_frequencies contains the number of reads from each sample mapping to each barcode. 
+Master_cfu contains the number of CFU from each sample. 
+
+For analysis of CR253:
+“FinalResiliencyWithCFU_Ian_2022” takes “master_frequencies” and “master_cfu” files and uses them to calculate the number of founders in each sample, output as the table “master_FP”.
+Using founding population values from in vitro controls we created the table “master_cal253”.
+“CalibrateNr_Ian_2022” takes “master_cal253” and “master_FP” and calibrates the data based on the values from the standard curve.
+
+For analysis of CR69K:
+“getFP_Ian_2022” takes “master_frequencies” and “master_cfu” files and uses them to calculate the number of founders in each sample, output as the table “master_FP”.
+Using founding population values from in vitro controls we created the table “master_cal70K.csv”.
+“Calibrate_Ian_2022” takes “master_ cal70K” and “master_FP” and calibrates the data based on the values from the standard curve.
+
+To test/review the software we recommend starting with the calibration datasets from each library. The CFU values from the calibrations are the known size of the founding population for the plate and the scripts then calculate the founding populations from the barcode tables. 
