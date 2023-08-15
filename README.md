@@ -8,7 +8,7 @@ Papers that have deposited code into this repository include:
 2) [Population dynamics of E. coli systemic infection](https://elifesciences.org/articles/70910)
 3) [Barcoded V. cholerae challenge strains](https://journals.asm.org/doi/10.1128/mbio.00539-22)
 4) [C. rodentium colonization bottlenecks](https://www.biorxiv.org/content/10.1101/2022.10.11.511778v2)
-5) [TLR4 and dose response during E. coli systemic infection] (https://www.biorxiv.org/content/10.1101/2023.06.09.543079v1)
+5) [TLR4 and dose response during E. coli systemic infection](https://www.biorxiv.org/content/10.1101/2023.06.09.543079v1)
 -----
 
 The **DoseScalingTLR4** folder contains scripts used [here](https://www.biorxiv.org/content/10.1101/2023.06.09.543079v1)
