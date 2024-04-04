@@ -1,4 +1,4 @@
-Updated 10/21/22
+Updated 4/4/24
 
 This repository contains the code and data to calculate STAMPR measurements from barcode frequency counts. If you have a question or are having trouble running the code, don't hesitate to email me at hullahalli[at]g.harvard.edu. 
 
