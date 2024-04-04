@@ -1,6 +1,6 @@
 Updated 10/21/22
 
-This repository contains the code to calculate STAMPR measurements from barcode frequency counts. If you have a question or are having trouble running the code, don't hesitate to email me at hullahalli[at]g.harvard.edu. 
+This repository contains the code and data to calculate STAMPR measurements from barcode frequency counts. If you have a question or are having trouble running the code, don't hesitate to email me at hullahalli[at]g.harvard.edu. 
 
 Papers that have deposited code into this repository include:
 
@@ -9,17 +9,11 @@ Papers that have deposited code into this repository include:
 3) [Barcoded V. cholerae challenge strains](https://journals.asm.org/doi/10.1128/mbio.00539-22)
 4) [C. rodentium colonization bottlenecks](https://www.biorxiv.org/content/10.1101/2022.10.11.511778v2)
 5) [TLR4 and dose response during E. coli systemic infection](https://www.biorxiv.org/content/10.1101/2023.06.09.543079v1)
+6) [Klebsiella dissemination during bacteremic pneumonia](https://www.biorxiv.org/content/10.1101/2024.04.03.587919v1)
+
+   
 -----
 
-The **DoseScalingTLR4** folder contains scripts used [here](https://www.biorxiv.org/content/10.1101/2023.06.09.543079v1)
-
------
-The **Campbell2023** folder contains the scripts used [here](https://www.biorxiv.org/content/10.1101/2022.10.11.511778v2).
-
------
-The **ZChol** folder contains a script that is an updated version of the original *getNrNb* function. This was used [here](https://www.biorxiv.org/content/10.1101/2021.12.17.473008v1) to calculate FP values. The original *getNrNb* function runs out of memory when using a large number of barcodes (~60,000 in this study), so this script was created to be able to run on libraries of this size and also improves on noise correction. We anticipate combining the features of both scripts in the future. 
-
------
 
 The **STAMPR_Scripts** folder contains all scripts needed to run the analysis from the mSystems STAMPR paper. Note that newer versions have since been deposited in their respective folders
 
