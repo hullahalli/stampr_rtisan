@@ -4,16 +4,15 @@ This repository contains the code and data to calculate STAMPR measurements from
 
 Papers that have deposited code into this repository include:
 
-1) [The description of STAMPR](https://journals.asm.org/doi/10.1128/mSystems.00887-21)
-2) [Population dynamics of E. coli systemic infection](https://elifesciences.org/articles/70910)
-3) [Barcoded V. cholerae challenge strains](https://journals.asm.org/doi/10.1128/mbio.00539-22)
-4) [C. rodentium colonization bottlenecks](https://www.biorxiv.org/content/10.1101/2022.10.11.511778v2)
-5) [TLR4 and dose response during E. coli systemic infection](https://www.biorxiv.org/content/10.1101/2023.06.09.543079v1)
-6) [Klebsiella dissemination during bacteremic pneumonia](https://www.biorxiv.org/content/10.1101/2024.04.03.587919v1)
+1) [The description of STAMPR](https://journals.asm.org/doi/10.1128/mSystems.00887-21) (**STAMPR Scripts** folder - note that newer folders used updated versions of these scripts)
+2) [Population dynamics of E. coli systemic infection](https://elifesciences.org/articles/70910) (**ExPEC** folder)
+3) [Barcoded V. cholerae challenge strains](https://journals.asm.org/doi/10.1128/mbio.00539-22) (**ZChol** folder)
+4) [C. rodentium colonization bottlenecks](https://www.biorxiv.org/content/10.1101/2022.10.11.511778v2) (**Campbell 2023** folder)
+5) [TLR4 and dose response during E. coli systemic infection](https://www.biorxiv.org/content/10.1101/2023.06.09.543079v1) (**DoseScalingTLR4** folder)
+6) [Klebsiella dissemination during bacteremic pneumonia](https://www.biorxiv.org/content/10.1101/2024.04.03.587919v1) (**Holmes2024** folder)
 
    
------
-
+----
 
 The **STAMPR_Scripts** folder contains all scripts needed to run the analysis from the mSystems STAMPR paper. Note that newer versions have since been deposited in their respective folders
 
