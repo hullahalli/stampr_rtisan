@@ -1,0 +1,65 @@
+﻿Sample,Group,Order,BioSample
+M1024_S11_L001_R1_001,10,5,M10 feces 24hpi
+M1048_S10_L001_R1_001,10,6,M10 feces 48hpi
+M10cae_S8_L001_R1_001,10,3,M10 caecum
+M10col_S9_L001_R1_001,10,4,M10 colon
+M10SI_S7_L001_R1_001,10,2,M10 s. intestine
+M10st_S6_L001_R1_001,10,1,M10 stomach
+M1124_S17_L001_R1_001,11,5,M11 feces 24hpi
+M1148_S18_L001_R1_001,11,6,M11 feces 48hpi
+M1172_S16_L001_R1_001,11,7,M11 feces 72hpi
+M11cae_S14_L001_R1_001,11,3,M11 caecum
+M11col_S15_L001_R1_001,11,4,M11 colon
+M11SI_S13_L001_R1_001,11,2,M11 s. intestine
+M1224_S5_L001_R1_001,12,5,M12 feces 24hpi
+M1272_S4_L001_R1_001,12,7,M12 feces 72hpi
+M12cae_S2_L001_R1_001,12,3,M12 caecum
+M12col_S3_L001_R1_001,12,4,M12 colon
+M12SI_S1_L001_R1_001,12,2,M12 s. intestine
+M1324_S11_L001_R1_001,13,5,M13 feces 24hpi
+M1372_S10_L001_R1_001,13,7,M13 feces 72hpi
+M13cae_S8_L001_R1_001,13,3,M13 caecum
+M13col_S9_L001_R1_001,13,4,M13 colon
+M13SI_S7_L001_R1_001,13,2,M13 s. intestine
+M13st_S6_L001_R1_001,13,1,M13 stomach
+M1cae_S2_L001_R1_001,1,3,M1 caecum
+M1col_S3_L001_R1_001,1,4,M1 colon
+M1fec_S4_L001_R1_001,1,5,M1 feces
+M1SI_S1_L001_R1_001,1,2,M1 s. intestine
+M2cae_S7_L001_R1_001,2,3,M2 caecum
+M2col_S8_L001_R1_001,2,4,M2 colon
+M2fec_S9_L001_R1_001,2,5,M2 feces
+M2SI_S6_L001_R1_001,2,2,M2 s. intestine
+M2st_S5_L001_R1_001,2,1,M2 stomach
+M3cae_S12_L001_R1_001,3,3,M3 caecum
+M3col_S13_L001_R1_001,3,4,M3 colon
+M3fec_S14_L001_R1_001,3,5,M3 feces
+M3SI_S11_L001_R1_001,3,2,M3 s. intestine
+M3st_S10_L001_R1_001,3,1,M3 stomach
+M4cae_S17_L001_R1_001,4,3,M4 caecum
+M4col_S18_L001_R1_001,4,4,M4 colon
+M4fec_S19_L001_R1_001,4,5,M4 feces
+M4SI_S16_L001_R1_001,4,2,M4 s. intestine
+M4st_S15_L001_R1_001,4,1,M4 stomach
+M5cae_S3_L001_R1_001,5,3,M5 caecum
+M5col_S4_L001_R1_001,5,4,M5 colon
+M5fec_S5_L001_R1_001,5,5,M5 feces
+M5si_S2_L001_R1_001,5,2,M5 s. intestine
+M5st_S1_L001_R1_001,5,1,M5 stomach
+M724_S10_L001_R1_001,7,5,M7 feces 24hpi
+M748_S9_L001_R1_001,7,6,M7 feces 48hpi
+M7cae_S8_L001_R1_001,7,3,M7 caecum
+M7col_S9_L001_R1_001,7,4,M7 colon
+M7si_S7_L001_R1_001,7,2,M7 s. intestine
+M7st_S6_L001_R1_001,7,1,M7 stomach
+M824_S17_L001_R1_001,8,5,M8 feces 24hpi
+M848_S16_L001_R1_001,8,6,M8 feces 48hpi
+M8cae_S14_L001_R1_001,8,3,M8 caecum
+M8col_S15_L001_R1_001,8,4,M8 colon
+M8si_S13_L001_R1_001,8,2,M8 s. intestine
+M8st_S12_L001_R1_001,8,1,M8 stomach
+M924_S5_L001_R1_001,9,5,M9 feces 24hpi
+M948_S4_L001_R1_001,9,6,M9 feces 48hpi
+M9cae_S2_L001_R1_001,9,3,M9 caecum
+M9col_S3_L001_R1_001,9,4,M9 colon
+M9SI_S1_L001_R1_001,9,2,M9 s. intestine
