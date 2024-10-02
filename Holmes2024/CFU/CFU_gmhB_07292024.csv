@@ -1,0 +1,25 @@
+Tube,CFU,BioSample
+s5_ch08, - ,Undiluted gmhB Library A
+s6_ch08, - ,Undiluted gmhB Library B
+s11_ch08,35333333.33,gmhB 07.22 Input A
+s12_ch08, - ,gmhB 07.22 Input B
+s13_ch08,346666666.7,034.WT.gmhB.Lung
+s14_ch08,33333333.33,035.WT.gmhB.Lung
+s15_ch08,113333333.3,036.WT.gmhB.Lung
+s16_ch08,920000000,037.WT.gmhB.Lung
+s17_ch08,38666666.67,038.WT.gmhB.Lung
+s18_ch08,69333.33,034.WT.gmhB.Spleen
+s19_ch08,1266.67,035.WT.gmhB.Spleen
+s20_ch08,19333.33,036.WT.gmhB.Spleen
+s21_ch08,118000,037.WT.gmhB.Spleen
+s22_ch08,866.67,038.WT.gmhB.Spleen
+s23_ch08,13333.33,034.WT.gmhB.Liver
+s24_ch08,11866.67,035.WT.gmhB.Liver
+s25_ch08,8200,036.WT.gmhB.Liver
+s26_ch08,134000,037.WT.gmhB.Liver
+s27_ch08,733.33,038.WT.gmhB.Liver
+s28_ch08,46000,034.WT.gmhB.Blood
+s29_ch08,893.78,035.WT.gmhB.Blood
+s30_ch08,493333.33,036.WT.gmhB.Blood
+s31_ch08,3133333.33,037.WT.gmhB.Blood
+s32_ch08,1540.77,038.WT.gmhB.Blood

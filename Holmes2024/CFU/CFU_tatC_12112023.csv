@@ -1,0 +1,32 @@
+﻿Tube,CFU,BioSample ID
+s9_ch06, - ,Undiluted tatC Library A
+s10_ch06, - ,Undiluted tatC Library B
+s11_ch06,10,Low Dilution tatC Library A
+s12_ch06,10,Low Dilution tatC Library B
+s17_ch06,17333333.33,tatC 06.26 Input A
+s18_ch06, - ,tatC 06.26 Input B
+s23_ch06,27333333.33,tatC 06.27 Input A
+s24_ch06, - ,tatC 06.27 Input B
+s31_ch06,880000,tatC_Lung_183
+s32_ch06,840000,tatC_Lung_184
+s33_ch06,3466666.667,tatC_Lung_185
+s34_ch06,810000,tatC_Lung_186
+s79_ch07,10333333.33,tatC_Lung_197
+s80_ch07,9333333.333,tatC_Lung_198
+s43_ch06,51,tatC_Spleen_183
+s44_ch06,2,tatC_Spleen_184
+s46_ch06,24666.66667,tatC_Spleen_186
+s89_ch07,7,tatC_Spleen_197
+s90_ch07,8600,tatC_Spleen_198
+s66_ch07,13066.66667,tatC_Liver_183
+s67_ch07,185,tatC_Liver_184
+s68_ch07,33,tatC_Liver_185
+s69_ch07,4533.333333,tatC_Liver_186
+s109_ch07,6533.333333,tatC_Liver_197
+s110_ch07,156000,tatC_Liver_198
+s54_ch06,18,tatC_Blood_183
+s55_ch06,2533.333333,tatC_Blood_184
+s56_ch06,2,tatC_Blood_185
+s57_ch06,5466.666667,tatC_Blood_186
+s99_ch07,12.5,tatC_Blood_197
+s100_ch07,466666.6667,tatC_Blood_198
